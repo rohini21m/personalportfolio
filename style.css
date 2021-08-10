@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
+}
+.body {
+  min-width: 100vh;
+  height: 100vh;
+  background-color: #0a192f;
+}
+.container {
+  display: block;
+  background-color: #0a192f;
+  width: 100%;
+  height: 100vh;
+}
+
+.bigBro {
+  position: relative;
+  min-height: 100vh;
+  text-decoration: none;
+  padding: 0 5rem;
+}
+nav {
+  float: right;
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 5vh;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-links li a {
+  text-decoration: none;
+  padding-left: 5rem;
+  font-size: 1.5rem;
+  color: chocolate;
+}
+.nav-links a:hover {
+  color: rgb(38, 180, 57);
+}
+.name {
+  color: white;
+}
+.hide {
+  align-items: center;
+  font-family: "Zilla Slab", serif;
+  font-size: 3.2rem;
+  color: black;
+  height: 330px;
+}
+
+.hide img {
+  height: 50px;
+}
+.intro {
+  align-items: center;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 40%;
+  left: -75%;
+  width: 800px;
+  height: 430px;
+}
+
+span {
+  font-family: "Zilla Slab , serif";
+  color: white;
+  font-size: 3.2rem;
+  line-height: 1em;
+  height: 530px;
+}
+
+.About {
+  text-align: center;
+  display: block;
+  background-color: rgb(167, 89, 12);
+  position: relative;
+  min-height: 50vh;
+  padding: 0 10rem;
+  color: white 2px;
+}
+.About h1 {
+  background-color: rgb(167, 89, 12);
+  color: white;
+}
+.About p {
+  display: block;
+  float: left;
+  text-indent: 10px;
+  color: white;
+  margin-top: 10px;
+  padding: 2px;
+  font-family: "Zilla Slab , serif";
+  font-size: 1.2em;
+  text-align: left;
+}
+
+article {
+  display: block;
+  margin: 20px -80px;
+  float: left;
+}
+ul.skills {
+  margin-bottom: 20px;
+  text-indent: 10px;
+  list-style-position: outside;
+  color: white;
+  margin: 50px 0 0 -100px;
+  display: block;
+  list-style-type: square;
+}
+.skills li {
+  margin: 20px;
+  text-decoration-style: none;
+
+  color: white;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  min-height: 50vh;
+  margin: 10px;
+  max-width: 100%;
+  border-radius: 10px;
+  border-color: white;
+  grid-gap: 5px;
+}
+
+img {
+  margin: 70px 10px 10px 10px;
+  width: 350px;
+  height: 300px;
+  transition: all 0.3s ease-out;
+  border-radius: 10px;
+  cursor: pointer;
+  object-fit: contain;
+}
+img:hover {
+  opacity: 0.8;
+}
+
+.img-gallery img {
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  background-color: #0a192f;
+}
+
+.Contact {
+  margin-top: 160px;
+  height: 80vh;
+  background-color: rgba(167, 89, 12);
+  position: relative;
+  transition: background-color 0.5s ease;
+}
+.Contact h2 {
+  height: 10vh;
+  top: 10%;
+  left: -5%;
+  position: relative;
+  transition: background-color 0.5s ease;
+}
+
+form {
+  top: 30%;
+  left: 48%;
+  color: white;
+  font-size: 1.5em;
+  font-family: "Zilla Slab , serif";
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+
+.Name,
+.Email,
+.contact-number,
+.finish {
+  margin-top: 30px;
+  color: black;
+  font-size: 1.3em;
+  font-family: "Zilla Slab , serif";
+  position: absolute;
+  transform: translate(-50%, 50%);
+  background-color: white;
+  width: 600px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+.Name input,
+.Email input,
+.contact-number input {
+  background-color: none;
+  border: none;
+  flex: 1;
+  height: 100%;
+  outline: none;
+}
+.Name i,
+.Email i,
+.contact-number i,
+.finish i {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+div.innactive {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+div.active {
+  opacity: 1;
+  pointer-events: all;
+  transform: translate(-50%, 50%);
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  50% {
+    transform: translate(-50%, 50%) rotate(5deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+.Msg {
+  height: 3vh;
+  margin-top: 17%;
+  margin-left: 700px;
+  position: absolute;
+  transition: background-color 0.5s ease;
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Zilla Slab , serif";
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5765af88bb.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <body>
+      <main class="container">
+        <div class="name">
+          <div class="intro">
+            <h1 class="hide">
+              <span>
+                &#128075; I'm Rohini Munnangi. I am a front end developer.</span
+              >
+              <span
+                >I love building easy accessible user interfaces using modern
+                technologies.</span
+              >
+            </h1>
+          </div>
+        </div>
+
+        <section class="bigBro">
+          <nav>
+            <ul class="nav-links">
+              <li><a href="#AboutMe" id="about"> About</a></li>
+              <li><a href="#contact"> Contact</a></li>
+              <li><a href="#projects"> Projects</a></li>
+            </ul>
+          </nav>
+          <div class="slider"></div>
+        </section>
+
+        <section class="About" id="AboutMe">
+          <h1>About Me</h1>
+          <p>
+            I am front end developer. It started as an intrest and later I
+            enjoyed building websites on the web.
+          </p>
+          <p>
+            I started developing websites initially with building HTML & CSS.I
+            build responsive websites and accessible user interfaces using
+            modern technogies.
+          </p>
+          <p>Here are the technologies I worked with:</p>
+          <article>
+            <ul class="skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+              <li>REACT</li>
+            </ul>
+          </article>
+        </section>
+
+        <h1 class="heading">Projects</h1>
+
+        <section class="gallery" id="projects">
+          <div class="img-gallery" id="P1">
+            <img
+              src="https://cdn.pickuplimes.com/cache/58/ef/58efe37ae85770997ca5e8480bd8f8ba.jpg"
+            />
+          </div>
+          <div class="img-gallery" id="P2">
+            <img
+              src="https://images.unsplash.com/photo-1570215171424-f74325192b55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyOTgxMzd8fGVufDB8fHx8&w=1000&q=80"
+            />
+          </div>
+          <div class="img-gallery" id="P3">
+            <img
+              src="https://www.afreshstarttherapy.com/wp-content/uploads/2019/04/a-fresh-start.jpeg"
+            />
+          </div>
+          <div class="img-gallery" id="P4">
+            <img
+              src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/tesoro-design/online-example-tesoro-design-small-47507c78c4ea7d3e250099e61438660675b6f7c641c867c6ba80198b46effcb2.jpg"
+            />
+          </div>
+          <div class="img-gallery" id="P5">
+            <img
+              src="https://lh3.googleusercontent.com/proxy/x0GUOw60AQbyFtR8QIUfZvOotW5s2mheMMJYnva2Pp2akq-NhMq09j_0XYxl9oAd8S6GBIu9pyJYbSPLEWYIUm-FMhdtf0PUi4oXTXrvWk-96HLRORcgsGye_Z-8eidqM7kDCItfRIv4i3RZdSxjs-2LTPxgAiI9rMsA2VjftKo18lRiogo7rAmudMMdc0aZmc8V_Hw4dMVGdMsL5PUvpP0C9LClX90LaHmeTHJDkjlpCMDbHOffNfangWhapNV_jhcHOPSrMvLLcWvniFrCCbwBH_tVQz5sjp40uWOjYGJAlTu8o2KwG_KdzkVJSX6hvuQbGCODN7kFuiVwrBJ0deDYkPZF"
+            />
+          </div>
+          <div class="img-gallery" id="P6">
+            <img
+              src="https://boatbasincafe.com/wp-content/uploads/2020/12/Vegan-Coffee-Creamers.jpg"
+            />
+          </div>
+          <div class="img-gallery" id="P7">
+            <img
+              src="C:\Users\Rohinimunnangi\Videos\Captures\https___rohini21m.github.io_TODO-ANIMATION_ - Google Chrome 8_10_2021 2_14_35 PM (2).png"
+            />
+          </div>
+        </section>
+        <section class="Contact" id="contact">
+          <form>
+            <h2>Contact Me...</h2>
+            <div class="Name">
+              <i class="fas fa-user"></i>
+              <input type="text" id="name" placeholder="Name" required />
+              <i class="fas fa-arrow-down"></i>
+            </div>
+            <div class="Email innactive">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email Adress" required />
+              <i class="fas fa-arrow-down"></i>
+            </div>
+          </form>
+          <h2 class="Msg" id="Msg"></h2>
+        </section>
+      </main>
+      <script src="app.js"></script>
+    </body>
+  </head>
+</html>
