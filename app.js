@@ -77,6 +77,7 @@ function msg() {
 portofolio();
 
 const p1 = document.getElementById("P1");
+const p0 = document.getElementById("P0");
 const p2 = document.getElementById("P2");
 const p3 = document.getElementById("P3");
 const p4 = document.getElementById("P4");
@@ -86,6 +87,9 @@ const p7 = document.getElementById("P7");
 
 p1.addEventListener("click", () => {
   location.href = "https://rohini21m.github.io/burgers/";
+});
+p0.addEventListener("click", () => {
+  location.href = "https://rohini21m.github.io/Recipe-App/";
 });
 
 p2.addEventListener("click", () => {
