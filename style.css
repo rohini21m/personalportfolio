@@ -105,6 +105,7 @@ span {
 }
 
 article {
+  height:500px;
   display: block;
   margin: 20px -80px;
   float: left;
