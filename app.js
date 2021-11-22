@@ -86,9 +86,7 @@ const p6 = document.getElementById("P6");
 const p7 = document.getElementById("P7");
 const p8 = document.getElementById("P8");
 
-p8.addEventListener("click", () => {
-  location.href = "https://rohini21m.github.io/uber/";
-});
+
 
 p1.addEventListener("click", () => {
   location.href = "https://rohini21m.github.io/burgers/";
@@ -118,4 +116,7 @@ p6.addEventListener("click", () => {
 });
 p7.addEventListener("click", () => {
   location.href = "https://rohini21m.github.io/TODO-ANIMATION/";
+});
+p8.addEventListener("click", () => {
+  location.href = "https://rohini21m.github.io/uber/";
 });
