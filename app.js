@@ -108,7 +108,7 @@ p4.addEventListener("click", () => {
 });
 
 p5.addEventListener("click", () => {
-  location.href = "https://rohini21m.github.io/minimalism-article/";
+  location.href = "https://rohini21m.github.io/CovidTracking/";
 });
 
 p6.addEventListener("click", () => {
